@@ -1,0 +1,1 @@
+import {Policy} from '../types/policy.types'; export const mockPolicies:Policy[]=[];

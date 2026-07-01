@@ -1,0 +1,1 @@
+import {mockPolicies} from '../data/mockPolicies'; export const fetchPoliciesForUser=async()=>new Promise(res=>setTimeout(()=>res(mockPolicies),300));

@@ -1,0 +1,1 @@
+import {useContext} from 'react'; import {PoliciesContext} from '../context/PoliciesProvider'; export const usePolicies=()=>useContext(PoliciesContext);

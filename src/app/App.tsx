@@ -1,0 +1,1 @@
+import { MyPoliciesPage } from '../features/policies'; export default function App(){ return <MyPoliciesPage /> }

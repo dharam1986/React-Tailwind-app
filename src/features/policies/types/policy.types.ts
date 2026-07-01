@@ -1,0 +1,1 @@
+export interface Policy { policyNumber:string; policyStart:string; policyEnd:string; status:'Active'|'Expired'; destinations:{code:string;name:string}[]; type:'Single Trip'|'Annual'; excess:number; maxTripDuration:number; planName:string }
